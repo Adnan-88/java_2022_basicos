@@ -23,6 +23,7 @@ public class PruebaTablas {
 		
 		//recorrer claves de un HashMap:
 		Set<Integer> claves=tabla.keySet();
+		
 		for(Integer c:claves) {
 			System.out.println(c);
 		}
